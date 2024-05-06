@@ -1,0 +1,48 @@
+.box{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 700px;
+   border: 1px solid #000; 
+}
+
+.elem-picture{
+border-radius: 50%;
+border: 5px dotted #e10808;
+/* animation */
+animation-name: flower;
+animation-duration: 5000ms;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+
+
+@keyframes flower{
+0%{
+/* transform:translate(0, 0) rotate(360deg); */
+}
+
+20%{
+    /* transform: rotate(360deg); */
+    transform:translate(900px, 600px) rotate(360deg);
+}
+
+40%{
+    transform:translate(0, 600px) rotate(-360deg);
+}
+
+60%{
+    transform:translate(900px, 0) rotate(360deg);
+
+}
+
+80%{
+    transform: translate(450px, 300px) scale(1.9) rotate(-360deg);
+}
+
+100%{
+/* transform:translate(0, 0) rotate(360deg); */
+    
+}
+}
