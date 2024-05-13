@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 }
 
 ul,
@@ -13,8 +13,22 @@ a {
   /* color: currentColor; */
 }
 svg {
-  fill: currentColor;
+  /* fill: currentColor; */
 }
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 
 .icons {
   max-width: 768px;
@@ -27,10 +41,9 @@ svg {
   gap: 30px;
 }
 
+/* #
 
-#
-
-[]
+[] */
 
 .item-icon {
   padding: 21px 90px;
@@ -47,4 +60,60 @@ svg {
 
 .item-icon:hover > svg {
   fill: red;
+}
+
+.contacts-list {
+  /* display: flex;
+  align-items: center; */
+}
+
+.contacts-list-item {
+  /* display: flex;
+align-items: center; */
+
+padding: 30px;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: rgb(34, 217, 74);
+}
+
+.contact-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: currentColor;
+  /* fill: tomato; */
+}
+
+
+.contacts-list-item:hover .contact-link{
+  color: rgb(208, 24, 177);
+
+}
+
+
+/* ============================ list ================== */
+
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+
+  border: 1px solid #000;
+  padding: 5px;
+  background-color: #47baf9;
+
+}
+
+.item{
+  /* width: ; */
+  /* flex-basis: ; */
+
+  width: calc((100% - 3 * 50 ) / 2);
 }
