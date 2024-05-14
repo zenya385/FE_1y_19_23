@@ -1,3 +1,8 @@
 .header{
     display: flex;
 }
+
+.header-btn{
+    @extend %button;
+    background-color: yellowgreen;
+}
