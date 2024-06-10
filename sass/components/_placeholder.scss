@@ -1,10 +1,35 @@
-%button {
-    display: block;
-    margin: 0 auto;
-    border-radius: 3px;
-    font-size: 16px;
-    padding: 10px 20px;
-    color: white;
-    // background-color: gray;
-  }
 
+
+%button{
+  display: inline-flex;
+  border-radius: 3px;
+  font-size: 16px;
+  font-style: italic;
+  padding: 10px 20px;
+  color: white;
+  background-color: #34d7f7;
+
+  &:hover{
+      color: black;
+  background-color: #f734d0;
+  }
+}
+
+
+
+ 
+
+//  @mixin bordered($color, $width) {
+//   border: $width solid $color;
+// }
+ 
+//  .section {
+//   @include bordered(tomato);
+//   padding: 20px;
+//  }
+ 
+//  .header {
+//   @include bordered(green);
+//   min-height: 80px;
+//  }
+ 

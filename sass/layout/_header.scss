@@ -1,8 +1,24 @@
 .header{
-    display: flex;
+    // display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.title{
+// @include bordered(green, 2px);
+// @include bordered(blue 1px);
+
+
+padding-top: 15px;
+padding-bottom: 15px;
+    font-size: 36px;
+    color: blueviolet;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
 }
 
 .header-btn{
-    @extend %button;
-    background-color: yellowgreen;
+@extend %button;
 }

@@ -1,0 +1,10 @@
+.simple-btn{
+    @extend %button;
+
+    // background-color: #34d7f7;
+
+    &:hover{
+        // color: black;
+    // background-color: #f734d0;
+    }
+}

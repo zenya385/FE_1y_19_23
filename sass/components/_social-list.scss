@@ -1,0 +1,40 @@
+
+
+.social-list {
+
+margin-top: 100px;
+margin-bottom: 200px;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.social-item {
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    background-color: #524b4b;
+
+   & svg{
+       fill: antiquewhite;
+   } 
+
+   &:hover .social-link>svg{
+fill: chartreuse;
+    }
+
+    &:hover{
+        background-color: #0e8ddd;
+    }
+}
+
+
+.social-link {
+    display: inline-flex;
+    // line-height: inherit;
+}
