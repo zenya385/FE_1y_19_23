@@ -9,32 +9,112 @@
   </head>
   <body>
     <header class="header">
-     <a href="#" class="logo">Logo</a>
-     <ul class="header-list">
-      <li class="header-item"><a href="#" class="header-link">item-1</a></li>
-      <li class="header-item"><a href="#" class="header-link">item-2</a></li>
-      <li class="header-item"><a href="#" class="header-link">item-3</a></li>
-     </ul>
-     <ul class="contact-list">
-      <li class="contact-item"><a href="#" class="contact-link">contact-1</a></li>
-      <li class="contact-item"><a href="#" class="contact-link">contact-2</a></li>
-     </ul>
+      <a href="#" class="logo">Logo</a>
+      <ul class="header-list">
+        <li class="header-item"><a href="#" class="header-link">item-1</a></li>
+        <li class="header-item"><a href="#" class="header-link">item-2</a></li>
+        <li class="header-item"><a href="#" class="header-link">item-3</a></li>
+      </ul>
+      <ul class="contact-list">
+        <li class="contact-item">
+          <a href="#" class="contact-link">contact-1</a>
+        </li>
+        <li class="contact-item">
+          <a href="#" class="contact-link">contact-2</a>
+        </li>
+      </ul>
+      <svg class="icon-menu-burger" width="40" height="40">
+        <use href="img/srite.svg#menu-burger"></use>
+      </svg>
     </header>
-   
-   
-<section class="mobile-simple">
-  <div class="container">
-    <div class="element">1</div>
-    <div class="element">2</div>
-    <div class="element">3</div>
-    <div class="element">4</div>
-    <div class="element">5</div>
-    <div class="element">6</div>
-  </div>
-</section>
-<section class="flower">
-<img src="img/flower.png" alt="" width="500" >
-</section>
 
+    <section class="mobile-simple">
+      <div class="container">
+        <div class="element">1</div>
+        <div class="element">2</div>
+        <div class="element">3</div>
+        <div class="element">4</div>
+        <div class="element">5</div>
+        <div class="element">6</div>
+      </div>
+    </section>
+    <section class="flower container">
+      <ul class="flower-list">
+        <li class="flower-item">
+          <img src="img/flower.png" alt="" width="500" />
+          <h2 class="flower-title">Lorem, ipsum dolor.</h2>
+        </li>
+        <li class="flower-item">
+          <img src="img/flower.png" alt="" width="500" />
+          <h2 class="flower-title">Lorem, ipsum dolor.</h2>
+        </li>
+        <li class="flower-item">
+          <img src="img/flower.png" alt="" width="500" />
+          <h2 class="flower-title">Lorem, ipsum dolor.</h2>
+        </li>
+        <li class="flower-item">
+          <img src="img/flower.png" alt="" width="500" />
+          <h2 class="flower-title">Lorem, ipsum dolor.</h2>
+        </li>
+        <li class="flower-item">
+          <img src="img/flower.png" alt="" width="500" />
+          <h2 class="flower-title">Lorem, ipsum dolor.</h2>
+        </li>
+        <li class="flower-item">
+          <img src="img/flower.png" alt="" width="500" />
+          <h2 class="flower-title">Lorem, ipsum dolor.</h2>
+        </li>
+        <li class="flower-item">
+          <img src="img/flower.png" alt="" width="500" />
+          <h2 class="flower-title">Lorem, ipsum dolor.</h2>
+        </li>
+        <li class="flower-item">
+          <img src="img/flower.png" alt="" width="500" />
+          <h2 class="flower-title">Lorem, ipsum dolor.</h2>
+        </li>
+      </ul>
+    </section>
+    <!-- =================Вся розмітка модалки ================ -->
+    <!-- <button class="btn-open" data-modal-open>Відкрити модалку</button> -->
+
+    <!-- <h1>Форма</h1> -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn" data-modal-close>Закрити</button>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis unde
+          modi dolore illum iure atque at repellendus officia quidem!
+          Dignissimos ipsum dolores consequatur excepturi amet. Est blanditiis
+          vitae dolor nulla!
+        </p>
+
+        <!-- <form name="signup_form" autocomplete="on" novalidate>
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              placeholder="сюди потрібно ввести пошту"
+            />
+          </label>
+
+          <label>
+            Password
+            <input type="password" name="password" />
+          </label>
+          <textarea name="" id=""></textarea>
+
+          <label>
+            Age
+            <input type="number" name="age" value="0" min="18" max="120" />
+          </label>
+
+          <textarea name="" id=""></textarea>
+
+          <button type="submit">Submit</button>
+        </form> -->
+      </div>
+    </div>
+    <script type="module" src="js/modal.js"></script>
   </body>
 </html>
